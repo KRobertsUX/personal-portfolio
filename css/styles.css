@@ -2,6 +2,7 @@
 
 body {
     background-color: pink;
+    font-family: 'Open Sans', sans-serif;
 }
 
 li {
@@ -14,8 +15,28 @@ ul {
 
 h1 {
     margin: 0;
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Oxygen', sans-serif;
 }
 
+.container {
+    padding: 0 15px;
+}
+.display-none-mobile {
+    display: none;
+}
+nav {
+    display: flex;
+}
+
+.ham-menu {
+    padding: 20px 15px 20px 0;
+}
+.logo-section {
+    width: 100vw;
+    align-content: center;
+}
 
 /* -------------------------- Global Styles - Links and Buttons ------------------------------------- */
 
