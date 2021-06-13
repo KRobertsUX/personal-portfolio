@@ -13,24 +13,24 @@
 </head>
 <body>
 <header>
-    <div class="container">
-        <nav>
-            <div class="ham-menu">
-                <a href=""><i class="fas fa-2x fa-bars"></i></a>
-            </div>
-            <div class="logo-section">
-                <div class="logo">
-                    <ul>
-                        <li><a href=""><h1>Katarina Roberts</h1></a></li>
-                    </ul>
-                </div>
-            </div>    
-            <ul class="display-none-mobile">
-                <li><a href="">Work</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Contact</a></li>
-            </ul>
-        </nav>
+    <div class="container navtoggle" id="myNavtoggle">
+            <nav>          
+                    <div class="ham-menu">
+                        <a href="javascript:void(0);"><i class="fas fa-2x fa-bars" class="icon" onclick="myfunction()"></i></a>
+                    </div>
+                    <div class="logo-section">
+                        <div class="logo">
+                            <ul>
+                                <li><a href="#"><h1>Katarina Roberts</h1></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                <ul class="display-none-mobile">
+                    <li><a href="#">Work</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>  
     </div>
 </header>
 
@@ -289,12 +289,12 @@
             <h3>Get in Touch</h3>
             <p>Would you like to talk about a project that you need help with?</p>
             <p>Do not hesitate to get in touch!</p>
-            <div class="button-light"><a href="">send email</a></div>
+            <div class="button-light"><a href="#">send email</a></div>
             <div>
                 <ul>
-                    <li><a href=""><i class="fab fa-2x fa-linkedin-in"></i></a></li>
-                    <li><a href=""><i class="fab fa-2x fa-behance"></i></a></li>
-                    <li><a href=""><i class="fab fa-2x fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-2x fa-linkedin-in"></i></a></li>
+                    <li><a href="#"><i class="fab fa-2x fa-behance"></i></a></li>
+                    <li><a href="#"><i class="fab fa-2x fa-twitter"></i></a></li>
                 </ul>
             </div>
         </div>    
@@ -302,7 +302,10 @@
 
     
 
-
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous">
+    </script>
     <script src="js/index.js"></script>
 </body>
 </html>
