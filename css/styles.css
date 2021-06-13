@@ -3,6 +3,7 @@
 body {
     background-color: pink;
     font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
 }
 
 li {
@@ -15,9 +16,9 @@ ul {
 
 h1 {
     margin: 0;
-    padding-top: 20px;
-    text-align: center;
     font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+    font-size: 2.25rem;
 }
 
 .container {
@@ -35,8 +36,11 @@ nav {
 }
 .logo-section {
     width: 100vw;
-    align-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 
 /* -------------------------- Global Styles - Links and Buttons ------------------------------------- */
 
@@ -59,3 +63,12 @@ header {
 
 
 /* -------------------------- Media Queries ------------------------------------- */
+@media only screen and (min-width: 640px) {
+    nav > ul > li {
+        display: inline-block;
+    }
+
+    .display-none-mobile {
+        display: inline-block;
+    }
+}
