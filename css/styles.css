@@ -29,17 +29,12 @@ h1 {
 }
 nav {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
 }
 
-.ham-menu {
-    padding: 20px 15px 20px 0;
-}
-.logo-section {
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
 
 /* -------------------------- Global Styles - Links and Buttons ------------------------------------- */
@@ -64,11 +59,24 @@ header {
 
 /* -------------------------- Media Queries ------------------------------------- */
 @media only screen and (min-width: 640px) {
-    nav > ul > li {
-        display: inline-block;
+    .menu {
+        display: none;
     }
 
     .display-none-mobile {
         display: inline-block;
     }
+
+    header {
+        height: 72px;
+    }
+    .menu-items {
+        width: 50%;
+        display: inline-block;
+    }
+    .menu-items ul {
+        display: flex;
+        justify-content: space-between;
+    }
+
 }
