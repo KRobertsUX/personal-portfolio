@@ -33,7 +33,9 @@ nav {
     align-items: center;
     height: 72px;
 }
-
+.menu {
+    padding: 20px 0 20px 0;
+}
 
 
 
@@ -63,9 +65,6 @@ header {
         display: none;
     }
 
-    .display-none-mobile {
-        display: inline-block;
-    }
 
     header {
         height: 72px;
