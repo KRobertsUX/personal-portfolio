@@ -1,9 +1,17 @@
 /* -------------------------- Global Styles ------------------------------------- */
-
+* {
+    box-sizing: border-box;
+  }
+html {
+    line-height: 1.4;
+}
 body {
     background-color: pink;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
+}
+main {
+    padding-top: 83px;
 }
 
 li {
@@ -18,44 +26,116 @@ h1 {
     margin: 0;
     font-family: 'Oxygen', sans-serif;
     font-weight: 400;
-    font-size: 2.25rem;
+    font-size: 2rem;
 }
-.logo-section {
-    margin: 0 auto;
+h2, h3 {
+    text-align: center;
 }
+
 
 .container {
     padding: 0 15px;
+}
+img {
+    width: 80%;
+}
+.display-none-mobile {
+    display: none;
+}
+/* -------------------------- Global Styles - Links and Buttons ------------------------------------- */
+
+a {
+    text-decoration: none;
+}
+.button-section {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+.button-large {
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid #6900BB;;
+    background-color: #6900BB;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-large p {
+    text-transform: uppercase;
+    margin: 0;
+}
+/* -------------------------- Header ------------------------------------- */
+header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
+.logo-section {
+    margin: 0 auto;
 }
 .display-none-mobile {
     display: none;
 }
 nav {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     height: 100%;
+    padding: 0 15px;
+}
+.menu-items {
+    width: 100%;
 }
 .menu {
     padding: 20px 0 20px 0;
 }
-
-
-
-/* -------------------------- Global Styles - Links and Buttons ------------------------------------- */
-
-a {
-    text-decoration: none;
+.menu-items li {
+    padding: 20px 0 15px;
 }
-
-
-/* -------------------------- Header ------------------------------------- */
-header {
-    background-color: white;
+.menu-items li:not(:last-child) {
+    border-bottom: 1px solid red;
+}
+.navtoggle.responsive .display-none-mobile {
+    display: block;
 }
 
 /* -------------------------- Main ------------------------------------- */
+.hero {
+    background-color: turquoise;
+}
 
+.headline p {
+    font-size: 8vw;
+    font-family: 'Oxygen', sans-serif;
+    margin: 0vw 0;
+    text-align: center;
+}
+.comma {
+    color: red;
+    font-size: 12vw;
+}
+.hero-text {
+    font-family: 'Oxygen', sans-serif;
+    display: block;
+    color: yellow;
+    font-size: 1.5rem;
+    margin: 10px 0 0 0;
+    text-align: center;
+}
+picture {
+    display: flex;
+    justify-content: center;
+}
 
 /* -------------------------- Footer ------------------------------------- */
 
@@ -64,12 +144,26 @@ header {
 
 /* -------------------------- Media Queries ------------------------------------- */
 @media only screen and (min-width: 640px) {
+    .hero {
+        background-color: red;
+    }
+
     .menu {
         display: none;
     }
 
+    .menu-items li:not(:last-child) {
+        border-bottom: none;
+    }
+    
+
+    .logo-section {
+        margin: 0 0;
+    }
+
     header {
-        height: 72px;
+        padding: 15px 0;
+        
     }
     .menu-items {
         width: 50%;
@@ -79,5 +173,21 @@ header {
         display: flex;
         justify-content: space-between;
     }
+    .display-none-mobile {
+        display: block;
+    }
 
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        font-size: 1.15rem;
+    }
+    .hero {
+        background-color: lightseagreen;
+    }
+    img {
+        width: 50%;
+        float: right;
+    }
 }
