@@ -13,10 +13,10 @@
 </head>
 <body>
 <header>
-    <div class="container navtoggle" id="myNavtoggle">
+    <div class="navtoggle" id="myNavtoggle">
             <nav>
                 <div class="menu">
-                    <a href="javascript:void(0);"><i class="fas fa-2x fa-bars" class="icon" onclick="myfunction()"></i></a>
+                    <a href="javascript:void(0);"><i class="fas fa-2x fa-bars" class="icon" onclick="menuToggle()"></i></a>
                 </div>
                 <div class="logo-section">
                     <div class="logo">
@@ -39,22 +39,26 @@
     <main>
         <div class="container">
             <div class="hero">
-                <div class="hero-left">
-                    <div class="headline"><p>Hey, I am Katarina</p></div>
+                    <div class="headline"><p>Hey<span class="comma">,</span> I am Katarina</p></div>
                     <div class="paragraph">
-                        <p>
-                            A web designer and front end developer with flair for User Experience. I pay attention to the detail and like to gain perspective from the user point of view to gain a better understanding of the problem that needs to be solved.
+                        <p class="hero-text">
+                            A web designer and front end developer with flair for User Experience.
                         </p>
-                </div>
-                    <div class="button-large"></div>
-                </div>
-                <div class="hero-right">
+                        <p class="display-none-mobile">
+                            I pay attention to the detail and like to gain perspective from the user point of view to gain a better understanding of the problem that needs to be solved.
+                        </p>
+                    </div>
+
                     <picture>
-                        <source srcset="" media="">
-                        <img src="" alt="">
+                        <source srcset="img/hero-600px.png" media="(max-width: 767px">
+                        <img src="img/hero-1200px.png" alt="An Illustration">
                     </picture>
-                </div>
+
+                <div class="button-section">
+                    <div class="button-large"><p>See my work</p></div>
+                </div>    
             </div>
+            <div class="float-clear"></div>
 
             <div class="featured-front-end">
                 <div class="front-end-headline">
