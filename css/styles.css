@@ -2,6 +2,7 @@
 * {
     box-sizing: border-box;
   }
+  
 html {
     line-height: 1.4;
 }
@@ -11,7 +12,10 @@ body {
     font-size: 16px;
 }
 main {
-    padding-top: 83px;
+    padding-top: 90px;
+}
+.container {
+    max-width: 1200px;
 }
 
 li {
@@ -35,9 +39,10 @@ h2, h3 {
 
 .container {
     padding: 0 15px;
+    margin: 0 auto;
 }
 img {
-    width: 80%;
+    width: 100%;
 }
 .display-none-mobile {
     display: none;
@@ -50,7 +55,7 @@ a {
 .button-section {
     display: flex;
     justify-content: center;
-    padding-bottom: 10px;
+    padding-bottom: 50px;
 }
 .button-large {
     width: 200px;
@@ -114,6 +119,7 @@ nav {
     background-color: turquoise;
 }
 
+
 .headline p {
     font-size: 8vw;
     font-family: 'Oxygen', sans-serif;
@@ -122,7 +128,7 @@ nav {
 }
 .comma {
     color: red;
-    font-size: 12vw;
+    font-size: 5rem;
 }
 .hero-text {
     font-family: 'Oxygen', sans-serif;
@@ -131,13 +137,20 @@ nav {
     font-size: 1.5rem;
     margin: 10px 0 0 0;
     text-align: center;
+    padding: 0 15px;
 }
 picture {
     display: flex;
     justify-content: center;
 }
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 
-/* -------------------------- Footer ------------------------------------- */
+/* -------------------------- Footer ------------------------------------- */  
+
 
 
 
@@ -175,6 +188,9 @@ picture {
     }
     .display-none-mobile {
         display: block;
+        text-align: center;
+        padding: 0 15px;
+        text-align: justify;
     }
 
 }
@@ -185,9 +201,33 @@ picture {
     }
     .hero {
         background-color: lightseagreen;
+        padding-top: 50px;
     }
-    img {
+    picture {
+        display: block;
+    }
+    /* img {
         width: 50%;
+
+    } */
+    .column{
+        width: 50%;
+    }
+    .col-left {
+        float: left;
+    }
+    .col-right {
         float: right;
+    }
+    .headline p {
+        font-size: 2.7rem;
+    }
+    picture {
+        display: flex;
+        justify-content: center;
+    }
+    .button-section {
+        margin-top: 20px;
+        width: 50%;
     }
 }
