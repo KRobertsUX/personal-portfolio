@@ -44,7 +44,7 @@ h2, h3 {
 img {
     width: 100%;
 }
-.display-none-mobile {
+.button-show-tablet {
     display: none;
 }
 /* -------------------------- Global Styles - Links and Buttons ------------------------------------- */
@@ -57,6 +57,7 @@ a {
     justify-content: center;
     padding-bottom: 50px;
 }
+
 .button-large {
     width: 200px;
     height: 50px;
@@ -143,11 +144,7 @@ picture {
     display: flex;
     justify-content: center;
 }
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
+
 
 /* -------------------------- Footer ------------------------------------- */  
 
@@ -186,7 +183,7 @@ picture {
         display: flex;
         justify-content: space-between;
     }
-    .display-none-mobile {
+    .hero .display-none-mobile {
         display: block;
         text-align: center;
         padding: 0 15px;
@@ -210,14 +207,21 @@ picture {
         width: 50%;
 
     } */
+    .column-flex {
+        display: flex;
+    }
+   
     .column{
         width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     .col-left {
-        float: left;
+        /* float: left; */
     }
     .col-right {
-        float: right;
+        /* float: right; */
     }
     .headline p {
         font-size: 2.7rem;
@@ -227,7 +231,11 @@ picture {
         justify-content: center;
     }
     .button-section {
-        margin-top: 20px;
-        width: 50%;
+       display: none;
+    }
+    .button-show-tablet {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 50px;
     }
 }
