@@ -52,23 +52,62 @@ img {
 .button-show-tablet {
     display: none;
 }
+.project {
+    background-color: paleturquoise;
+}
+
 /* -------------------------- Global Styles - Links and Buttons ------------------------------------- */
 
 a {
     text-decoration: none;
+    color: white;
 }
 
+nav a {
+    color: #6900BB;
+}
 .menu-items a {
     font-size: 1.15rem;
+    color: #6900BB;
+}
+.button {
+    height: 50px;
+    border-radius: 50px;
+    border: 3px solid #6900BB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+.button a {
+    text-transform: uppercase;
+}
+.button-purple {
+    background-color: #6900BB;
+}
+.button-purple a {
+    color: white;
 }
 
+.button-large {
+    width: 260px;
+}
+.button-light {
+    background-color: white;
+}
+.button-light a {
+    color: #6900BB;
+}
+.button-small {
+    width: 140px;
+}
 .button-section {
     display: flex;
     justify-content: center;
     padding-bottom: 50px;
 }
 
-.button-large {
+/* .button-large {
     width: 200px;
     height: 50px;
     border-radius: 50px;
@@ -80,13 +119,13 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
 .button-large p {
     text-transform: uppercase;
     margin: 0;
 }
-.button {
+/* .button {
     width: 140px;
     height: 50px;
     background-color: #6900BB;
@@ -94,15 +133,16 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.button a {
+} */
+/* .button a {
     color: white;
     text-transform: uppercase;
     font-size: 1.03rem;
     font-weight: 600;
-}
+} */
 .two-buttons {
     display: flex;
+    padding-bottom: 30px;
 }
 
 .button-center {
@@ -110,7 +150,10 @@ a {
     justify-content: center;
     width: 50%;
 }
-.expand-button {
+.expand-button-padding {
+    padding-bottom: 30px;
+}
+/* .expand-button {
     display: flex;
     justify-content: center;
     width: 260px;
@@ -120,14 +163,14 @@ a {
     align-items: center;
     text-transform: uppercase;
     font-weight: 600;
-}
-.light-button {
+} */
+/* .light-button {
     background-color: white;
     border: 3px solid #6900BB;
-}
-.light-button a {
+} */
+/* .light-button a {
     color: #6900BB;
-}
+} */
 .button-center {
     width: 100%;
 }
@@ -244,7 +287,8 @@ picture {
         padding: 0 15px;
         text-align: justify;
     }
-    .button {
+
+    /* .button {
         width: 200px;
         height: 50px;
         background-color: #6900BB;
@@ -252,6 +296,12 @@ picture {
         display: flex;
         justify-content: center;
         align-items: center;
+    } */
+    .button-small {
+        width: 200px;
+    }
+    .button-large {
+        width: 300px;
     }
 }
 
@@ -299,7 +349,7 @@ picture {
     .no-show-tablet {
         display: none;
     }
-    .button {
+    /* .button {
         width: 240px;
         height: 55px;
         background-color: #6900BB;
@@ -307,6 +357,14 @@ picture {
         display: flex;
         justify-content: center;
         align-items: center;
+    } */
+    .button-small {
+        width: 240px;
+        height: 55px;
+    }
+    .button-large {
+        height: 55px;
+        width: 320px;
     }
 }
 
