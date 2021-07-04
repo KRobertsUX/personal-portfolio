@@ -12,7 +12,7 @@ body {
     font-size: 16px;
 }
 main {
-    padding-top: 90px;
+    /* padding-top: 90px; */
 }
 .container {
     max-width: 1200px;
@@ -205,6 +205,9 @@ nav a {
 }
 .button-spacing {
     padding: 20px 0 40px 0;
+}
+.space-for-header {
+    height: 73px;
 }
 /* -------------------------- Header ------------------------------------- */
 header {
