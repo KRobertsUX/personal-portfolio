@@ -37,11 +37,15 @@ h2 {
     font-size: 2.7rem;
     font-weight: 400;
     margin: 0;
+    padding: 15px 0;
 }
 h2, h3 {
     text-align: center;
 }
-
+.all-projects h3 {
+    margin: 0;
+    padding-top: 30px;
+}
 
 .container {
     padding: 0 15px;
@@ -62,6 +66,25 @@ img {
 .ux img {
     padding: 50px 30px;
 }
+hr {
+    letter-spacing: 12px;
+    text-align: center;
+    overflow: visible;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    font-size: 34px;
+    display: block;
+    border: 0;
+  }
+  
+  hr:after {
+    content: "\B7\B7\B7";
+    display: inline-block;
+    margin-left: 0.6em;
+    color: rgba(0, 0, 0, 0.54);
+    position: relative;
+    top: -18px;
+  }
 /* -------------------------- Global Styles - Links and Buttons ------------------------------------- */
 
 a {
@@ -180,6 +203,9 @@ nav a {
 .button-center {
     width: 100%;
 }
+.button-spacing {
+    padding: 20px 0 40px 0;
+}
 /* -------------------------- Header ------------------------------------- */
 header {
     background-color: white;
@@ -188,6 +214,7 @@ header {
     left: 0;
     width: 100%;
     z-index: 9999;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.54);
 }
 .logo-section {
     margin: 0 auto;
@@ -248,16 +275,38 @@ picture {
     display: flex;
     justify-content: center;
 }
+.my-story img {
+    width: 50%;
+}
+.first-paragraph {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 35px;
+}
 
 
 /* -------------------------- Footer ------------------------------------- */  
-
-
-
+footer {
+    background-color: white;
+    border-top: 3px solid rgba(0, 0, 0, 0.54);
+}
+footer .fab {
+    color: blue;
+}
 
 
 /* -------------------------- Media Queries ------------------------------------- */
+@media only screen and (min-width: 400px) {
+    .all-projects img {
+        width: 370px
+    }
+}
+
 @media only screen and (min-width: 640px) {
+    .all-projects img {
+        width: 100%;
+    }
     .hero {
         background-color: red;
     }
@@ -372,6 +421,12 @@ picture {
         height: 55px;
         width: 320px;
     }
+    .my-story img {
+        width: 369px;
+    }
+}
+@media only screen and (min-width: 1000px) {
+
 }
 
 @media only screen and (min-width: 1200px) {
