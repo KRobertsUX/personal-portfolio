@@ -130,6 +130,9 @@ nav a {
 .button-small {
     width: 140px;
 }
+.single-button {
+    width: 220px;
+}
 .button-section {
     display: flex;
     justify-content: center;
@@ -297,7 +300,31 @@ footer {
 footer .fab {
     color: blue;
 }
-
+footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.social-media {
+    width: 290px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+.social-media ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+footer p {
+    text-align: center;
+}
+.copyright {
+    width: 290px;
+    border-top: 1px dashed rgba(0, 0, 0, 0.54);
+}
 
 /* -------------------------- Media Queries ------------------------------------- */
 @media only screen and (min-width: 400px) {
