@@ -102,6 +102,9 @@ hr {
   #welcome-section {
       height: 100vh;
   }
+  .responsiveSection {
+      display: none;
+  }
 /* -------------------------- Global Styles - Links and Buttons ------------------------------------- */
 
 a {
