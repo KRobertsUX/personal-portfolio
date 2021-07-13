@@ -11,9 +11,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
 }
-main {
-    /* padding-top: 90px; */
-}
+
 .container {
     max-width: 1200px;
 }
@@ -158,39 +156,11 @@ nav a {
     padding-bottom: 50px;
 }
 
-/* .button-large {
-    width: 200px;
-    height: 50px;
-    border-radius: 50px;
-    border: 1px solid #6900BB;;
-    background-color: #6900BB;
-    color: white;
-    font-size: 1.2rem;
-    font-weight: 600;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
-
 .button-large p {
     text-transform: uppercase;
     margin: 0;
 }
-/* .button {
-    width: 140px;
-    height: 50px;
-    background-color: #6900BB;
-    border-radius: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
-/* .button a {
-    color: white;
-    text-transform: uppercase;
-    font-size: 1.03rem;
-    font-weight: 600;
-} */
+
 .two-buttons {
     display: flex;
     padding-bottom: 30px;
@@ -204,24 +174,7 @@ nav a {
 .expand-button-padding {
     padding: 30px 0;
 }
-/* .expand-button {
-    display: flex;
-    justify-content: center;
-    width: 260px;
-    height: 50px;
-    border-radius: 50px;
-    display: flex;
-    align-items: center;
-    text-transform: uppercase;
-    font-weight: 600;
-} */
-/* .light-button {
-    background-color: white;
-    border: 3px solid #6900BB;
-} */
-/* .light-button a {
-    color: #6900BB;
-} */
+
 .button-center {
     width: 100%;
 }
@@ -410,15 +363,6 @@ footer p {
         text-align: justify;
     }
 
-    /* .button {
-        width: 200px;
-        height: 50px;
-        background-color: #6900BB;
-        border-radius: 50px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    } */
     .button-small {
         width: 200px;
     }
@@ -472,15 +416,7 @@ footer p {
     .no-show-tablet {
         display: none;
     }
-    /* .button {
-        width: 240px;
-        height: 55px;
-        background-color: #6900BB;
-        border-radius: 50px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    } */
+
     .button-small {
         width: 240px;
         height: 55px;
@@ -492,9 +428,6 @@ footer p {
     .my-story img {
         width: 369px;
     }
-}
-@media only screen and (min-width: 1000px) {
-
 }
 
 @media only screen and (min-width: 1200px) {
