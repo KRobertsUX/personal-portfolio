@@ -7,3 +7,11 @@ function menuToggle () {
     }
   }
   
+  function sectionShowHide () {
+    var x = document.getElementById('showHideId')
+    if (x.className === 'showHide') {
+      x.className += ' responsiveSection'
+    } else {
+      x.className = 'showHide'
+    }
+  }
