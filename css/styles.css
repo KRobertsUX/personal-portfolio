@@ -33,20 +33,24 @@ ul {
     font-size: 2rem;
 }
 h1 {
-    font-size: 2.7rem;
-    font-weight: 400;
+    font-size: 2rem;
     display: inline-block;
+    margin: 0;
+    font-weight: 400;
 }
 .hero p {
-    display: inline-block;
+    display: block;
+    margin-bottom: 0;
+    margin-top: 10px;
 }
 .headline {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 h2 {
     font-family: 'Oxygen', sans-serif;
-    font-size: 2.7rem;
+    font-size: 1.6rem;
     font-weight: 400;
     margin: 0;
     padding: 15px 0;
@@ -64,7 +68,7 @@ h2, h3 {
     margin: 0 auto;
 }
 img {
-    width: 100%;
+    width: 200px;
 }
 .button-show-tablet {
     display: none;
@@ -96,6 +100,9 @@ hr {
     color: rgba(0, 0, 0, 0.54);
     position: relative;
     top: -18px;
+  }
+  #welcome-section {
+      height: 100vh;
   }
 /* -------------------------- Global Styles - Links and Buttons ------------------------------------- */
 
@@ -272,23 +279,22 @@ nav {
 
 
 .headline p {
-    font-size: 8vw;
+    font-size: 2rem;
     font-family: 'Oxygen', sans-serif;
     margin: 0vw 0;
     text-align: center;
 }
 .comma {
     color: red;
-    font-size: 5rem;
+    /* font-size: 5rem; */
 }
 .hero-text {
     font-family: 'Oxygen', sans-serif;
     display: block;
     color: yellow;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin: 10px 0 0 0;
     text-align: center;
-    padding: 0 15px;
 }
 picture {
     display: flex;
@@ -344,9 +350,27 @@ footer p {
     .all-projects img {
         width: 370px
     }
+    img {
+        width: 100%;
+    }
+    .hero p {
+        margin: 10px 0;
+    }
+    .hero-text {
+        padding: 0 30px;
+    }
+}
+
+@media only screen and (min-width: 520px) {
+    img {
+        width: 491px;
+    }
 }
 
 @media only screen and (min-width: 640px) {
+    .container {
+        padding-top: 20px;
+    }
     .all-projects img {
         width: 100%;
     }
@@ -382,7 +406,7 @@ footer p {
     .hero .display-none-mobile {
         display: block;
         text-align: center;
-        padding: 0 15px;
+        padding: 30px 15px;
         text-align: justify;
     }
 
@@ -414,6 +438,10 @@ footer p {
     picture {
         display: block;
     }
+    
+    img {
+        width: 100%;
+    }
  
     .column-flex {
         display: flex;
@@ -426,9 +454,6 @@ footer p {
         justify-content: center;
     }
 
-    .headline p {
-        font-size: 2.7rem;
-    }
     picture {
         display: flex;
         justify-content: center;
