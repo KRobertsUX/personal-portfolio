@@ -109,6 +109,7 @@ img {
   #welcome-section {
       height: 100vh;
       padding-top: 20px;
+      display: flex;
   }
 
   .showHide {
@@ -284,6 +285,7 @@ picture {
 footer {
     background-color: white;
     border-top: 3px solid rgba(0, 0, 0, 0.54);
+    background-color: orange;
 }
 footer .fab {
     color: blue;
@@ -332,7 +334,7 @@ footer p {
 
 @media only screen and (min-width: 520px) {
     img {
-        width: 491px;
+        width: 400px;
     }
 }
 
@@ -359,7 +361,7 @@ footer p {
 
     header {
         padding: 15px 0;
-        
+        background-color: orange;
     }
     .menu-items {
         width: 50%;
