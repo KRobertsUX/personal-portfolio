@@ -80,7 +80,7 @@ img {
 .ux img {
     padding: 50px 30px;
 }
-hr {
+.dots {
     letter-spacing: 12px;
     text-align: center;
     overflow: visible;
@@ -91,7 +91,7 @@ hr {
     border: 0;
   }
   
-  hr:after {
+  .dots:after {
     content: "\B7\B7\B7";
     display: inline-block;
     margin-left: 0.6em;
@@ -99,12 +99,28 @@ hr {
     position: relative;
     top: -18px;
   }
+  .line {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    margin: 36.5px 0;
+  }
   #welcome-section {
       height: 100vh;
+      padding-top: 20px;
   }
-  .responsiveSection {
+
+  .showHide {
       display: none;
   }
+
+  .responsiveSection {
+    display: block;
+}
+.my-story {
+    background-color: paleturquoise;
+}
 /* -------------------------- Global Styles - Links and Buttons ------------------------------------- */
 
 a {
@@ -183,9 +199,6 @@ nav a {
 }
 .button-spacing {
     padding: 20px 0 40px 0;
-}
-.space-for-header {
-    height: 73px;
 }
 /* -------------------------- Header ------------------------------------- */
 header {
@@ -324,9 +337,6 @@ footer p {
 }
 
 @media only screen and (min-width: 640px) {
-    .container {
-        padding-top: 20px;
-    }
     .all-projects img {
         width: 100%;
     }
