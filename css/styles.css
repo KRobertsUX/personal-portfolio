@@ -140,6 +140,9 @@ img {
 .dark {
     background-color: #17BEBB;
 }
+.paragraphs {
+    padding: 0 30px;
+}
 /* -------------------------- Global Styles - Links and Buttons ------------------------------------- */
 
 a {
@@ -217,7 +220,7 @@ nav a {
     width: 100%;
 }
 .button-spacing {
-    padding: 20px 0 40px 0;
+    padding: 20px 0 73px 0;
 }
 /* -------------------------- Header ------------------------------------- */
 header {
@@ -298,6 +301,10 @@ picture {
     justify-content: center;
     padding: 0 35px;
 }
+.flex-row-center {
+    display: flex;
+    justify-content: center;
+}
 
 
 /* -------------------------- Footer ------------------------------------- */  
@@ -334,7 +341,9 @@ footer p {
     width: 290px;
     border-top: 1px dashed rgba(0, 0, 0, 0.54);
 }
-
+#no-background {
+    background-color: none;
+}
 /* -------------------------- Media Queries ------------------------------------- */
 @media only screen and (min-width: 400px) {
     .all-projects img {
@@ -366,6 +375,9 @@ footer p {
     }
     .space-for-header {
         height: 93px;
+    }
+    .button-spacing {
+        padding: 20px 0 93px 0;
     }
     .menu {
         display: none;
