@@ -7,7 +7,7 @@ html {
     line-height: 1.4;
 }
 body {
-    background-color: pink;
+    background-color: white;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
 }
@@ -52,6 +52,7 @@ h2 {
     font-weight: 400;
     margin: 0;
     padding: 15px 0;
+    background-color: pink;
 }
 h2, h3 {
     text-align: center;
@@ -72,10 +73,10 @@ img {
     display: none;
 }
 .project {
-    background-color: paleturquoise;
+    background-color: #AEECEF;
 }
 .h2-headline {
-    background-color: yellow;
+    background-color: white;
 }
 .ux img {
     padding: 50px 30px;
@@ -120,7 +121,24 @@ img {
     display: block;
 }
 .my-story {
-    background-color: paleturquoise;
+    background-color: pink;
+}
+.space-for-dots {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    background-color: #DEF4F7;
+}
+
+.space-for-header {
+    height: 73px;
+}
+.light {
+    background-color: #AEECEF;
+}
+.dark {
+    background-color: #17BEBB;
 }
 /* -------------------------- Global Styles - Links and Buttons ------------------------------------- */
 
@@ -243,7 +261,7 @@ nav {
 
 /* -------------------------- Main ------------------------------------- */
 .hero {
-    background-color: turquoise;
+    background-color: #17BEBB;
     
 }
 
@@ -272,6 +290,7 @@ picture {
 }
 .my-story img {
     width: 50%;
+    margin: 30px;
 }
 .first-paragraph {
     display: flex;
@@ -343,9 +362,11 @@ footer p {
         width: 100%;
     }
     .hero {
-        background-color: red;
+        background-color: #17BEBB;
     }
-
+    .space-for-header {
+        height: 93px;
+    }
     .menu {
         display: none;
     }
@@ -391,7 +412,7 @@ footer p {
         font-size: 1.05rem;
     }
     .hero {
-        background-color: lightseagreen;
+        background-color: #17BEBB;
         padding: 50px 0;
     }
     picture {
