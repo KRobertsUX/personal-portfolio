@@ -45,6 +45,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 50px;
 }
 h2 {
     font-family: 'Oxygen', sans-serif;
@@ -52,7 +53,6 @@ h2 {
     font-weight: 400;
     margin: 0;
     padding: 15px 0;
-    background-color: pink;
 }
 h2, h3 {
     text-align: center;
@@ -120,15 +120,12 @@ img {
   .responsiveSection {
     display: block;
 }
-.my-story {
-    background-color: pink;
-}
+
 .space-for-dots {
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: 100px;
-    background-color: #DEF4F7;
 }
 
 .space-for-header {
@@ -137,11 +134,17 @@ img {
 .light {
     background-color: #AEECEF;
 }
+.very-light {
+    background-color: #DEF4F7;
+}
 .dark {
     background-color: #17BEBB;
 }
 .paragraphs {
     padding: 0 30px;
+}
+.pink {
+    background-color: pink;
 }
 /* -------------------------- Global Styles - Links and Buttons ------------------------------------- */
 
@@ -151,11 +154,11 @@ a {
 }
 
 nav a {
-    color: #6900BB;
+    color: white;
 }
 .menu-items a {
     font-size: 1.15rem;
-    color: #6900BB;
+    color: white;
 }
 .button {
     height: 50px;
@@ -311,10 +314,10 @@ picture {
 footer {
     background-color: white;
     border-top: 3px solid rgba(0, 0, 0, 0.54);
-    background-color: orange;
+    background-color: #5C00A3;
 }
 footer .fab {
-    color: blue;
+    color: white;
 }
 footer .container {
     display: flex;
@@ -336,10 +339,14 @@ footer .container {
 }
 footer p {
     text-align: center;
+    color: white;
+}
+footer h2 {
+    color: white;
 }
 .copyright {
     width: 290px;
-    border-top: 1px dashed rgba(0, 0, 0, 0.54);
+    border-top: 1px dashed white;
 }
 #no-background {
     background-color: none;
@@ -394,7 +401,7 @@ footer p {
 
     header {
         padding: 15px 0;
-        background-color: orange;
+        background-color: #5C00A3;
     }
     .menu-items {
         width: 50%;
@@ -416,6 +423,9 @@ footer p {
     }
     .button-large {
         width: 300px;
+    }
+    .headline {
+        padding-top: 70px;
     }
 }
 
