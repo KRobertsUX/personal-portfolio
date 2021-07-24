@@ -234,6 +234,7 @@ header {
     width: 100%;
     z-index: 9999;
     border-bottom: 3px solid rgba(0, 0, 0, 0.54);
+    background-color: #5C00A3;
 }
 .logo-section {
     margin: 0 auto;
