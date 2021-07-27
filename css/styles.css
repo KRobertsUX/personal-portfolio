@@ -457,9 +457,8 @@ footer h2 {
     justify-content: space-between;
   }
 
-  .hero .display-none-mobile {
+  .hero .hero-text2 {
     display: block;
-    text-align: center;
     padding: 30px 15px;
     text-align: justify;
   }
