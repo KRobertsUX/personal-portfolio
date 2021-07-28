@@ -245,6 +245,9 @@ nav a {
   justify-content: center;
   width: 100%;
 }
+.side-padding {
+  padding: 0 30px;
+}
 
 .expand-button-padding {
   padding: 30px 0;
