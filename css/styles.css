@@ -78,6 +78,9 @@ h3 {
 img {
   width: 200px;
 }
+.project img {
+  width: 300px;
+}
 
 .button-show-tablet {
   display: none;
