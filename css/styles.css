@@ -415,6 +415,10 @@ footer h2 {
 }
 
 @media only screen and (min-width: 640px) {
+  .navtoggle.responsive .display-none-mobile {
+    display: flex;
+  }
+
   .all-projects img {
     width: 100%;
   }
