@@ -12,6 +12,9 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
 }
+main {
+  background-color: pink;
+}
 
 .container {
   max-width: 1200px;
@@ -319,7 +322,7 @@ nav {
 }
 
 .comma {
-  color: red;
+  color: pink;
 }
 
 .hero-text {
