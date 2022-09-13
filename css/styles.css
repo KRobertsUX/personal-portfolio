@@ -69,6 +69,8 @@ h3 {
   text-align: center;
 }
 
+
+
 .all-projects h3 {
   margin: 0;
   padding-top: 30px;
@@ -218,6 +220,10 @@ nav a {
 }
 
 .button-light a {
+  color: #6900bb;
+}
+
+.purple-link {
   color: #6900bb;
 }
 
